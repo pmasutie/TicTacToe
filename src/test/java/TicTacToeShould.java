@@ -60,4 +60,12 @@ public class TicTacToeShould {
         assertEquals("OO3456789", ticTacToe.showBoard());
     }
 
+    @Test
+    public void win_if_3_x_on_top_row() {
+        ticTacToe.placeX(new Tile(1));
+        ticTacToe.placeX(new Tile(2));
+        ticTacToe.placeX(new Tile(3));
+        assertTrue(ticTacToe.isWin());
+    }
+
 }

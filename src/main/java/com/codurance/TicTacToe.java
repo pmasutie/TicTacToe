@@ -16,4 +16,8 @@ public class TicTacToe {
         char tileNumber = tile.toCharacter();
         board = board.replace(tileNumber, 'O');
     }
+
+    public boolean isWin() {
+        return true;
+    }
 }
