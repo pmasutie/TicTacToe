@@ -21,6 +21,6 @@ public class TicTacToe {
         String topRow = board.substring(0, 3);
         String middleRow = board.substring(3, 6);
         String bottomRow = board.substring(6, 9);
-        return topRow.equals("XXX") || middleRow.equals("XXX") || bottomRow.equals("XXX");
+        return topRow.equals("XXX") || middleRow.equals("XXX") || bottomRow.equals("XXX") || topRow.equals("OOO") || middleRow.equals("OOO");
     }
 }

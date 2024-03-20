@@ -136,4 +136,22 @@ public class TicTacToeShould {
         ticTacToe.placeX(new Tile(9));
         assertTrue(ticTacToe.isWin());
     }
+
+    @Test
+    public void win_if_OOO_on_top_row() {
+        ticTacToe.placeO(new Tile(1));
+        ticTacToe.placeO(new Tile(2));
+        ticTacToe.placeO(new Tile(3));
+        assertTrue(ticTacToe.isWin());
+    }
+
+    @Test
+    public void win_if_OOO_on_middle_row() {
+        ticTacToe.placeO(new Tile(4));
+        ticTacToe.placeO(new Tile(5));
+        ticTacToe.placeO(new Tile(6));
+        assertTrue(ticTacToe.isWin());
+    }
+
+
 }
