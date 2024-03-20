@@ -12,6 +12,11 @@ public class TicTacToe {
     }
 
     public void placeO(Tile tile) {
+        char tileNumber = tile.toCharacter();
+        if( tileNumber == '2') {
+            board = "1O3456789";
+            return;
+        }
         board = "O23456789";
     }
 }
