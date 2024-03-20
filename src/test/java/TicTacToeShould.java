@@ -20,52 +20,61 @@ public class TicTacToeShould {
     }
 
     @Test
-    public void place_1_x_on_tile_1() {
+    public void place_1_X_on_tile_1() {
         Tile tile = new Tile(1);
         ticTacToe.placeX(tile);
         assertEquals("X23456789", ticTacToe.showBoard());
     }
 
     @Test
-    public void place_x_on_tile_2() {
+    public void place_X_on_tile_2() {
         Tile tile = new Tile(2);
         ticTacToe.placeX(tile);
         assertEquals("1X3456789", ticTacToe.showBoard());
     }
 
     @Test
-    public void place_x_on_tile_1_and_2() {
+    public void place_X_on_tile_1_and_2() {
         ticTacToe.placeX(new Tile(1));
         ticTacToe.placeX(new Tile(2));
         assertEquals("XX3456789", ticTacToe.showBoard());
     }
 
     @Test
-    public void place_o_on_tile_1() {
+    public void place_O_on_tile_1() {
         ticTacToe.placeO(new Tile(1));
         assertEquals("O23456789", ticTacToe.showBoard());
     }
 
     @Test
-    public void place_o_on_tile_2() {
+    public void place_O_on_tile_2() {
         Tile tile = new Tile(2);
         ticTacToe.placeO(tile);
         assertEquals("1O3456789", ticTacToe.showBoard());
     }
 
     @Test
-    public void place_o_on_tile_1_and_2(){
+    public void place_O_on_tile_1_and_2(){
         ticTacToe.placeO(new Tile(1));
         ticTacToe.placeO(new Tile(2));
         assertEquals("OO3456789", ticTacToe.showBoard());
     }
 
     @Test
-    public void win_if_3_x_on_top_row() {
+    public void win_if_XXX_on_top_row() {
         ticTacToe.placeX(new Tile(1));
         ticTacToe.placeX(new Tile(2));
         ticTacToe.placeX(new Tile(3));
         assertTrue(ticTacToe.isWin());
+    }
+
+    @Test
+    public void not_win_if_XOX_on_top_row() {
+        ticTacToe.placeX(new Tile(1));
+        ticTacToe.placeO(new Tile(2));
+        ticTacToe.placeX(new Tile(3));
+        assertFalse(ticTacToe.isWin());
+
     }
 
 }

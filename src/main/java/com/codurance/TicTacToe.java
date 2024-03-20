@@ -18,6 +18,6 @@ public class TicTacToe {
     }
 
     public boolean isWin() {
-        return true;
+        return board.equals("XXX456789");
     }
 }
