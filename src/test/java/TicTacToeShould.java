@@ -161,4 +161,12 @@ public class TicTacToeShould {
         assertTrue(ticTacToe.isWin());
     }
 
+    @Test
+    public void win_if_XXX_on_first_column() {
+        ticTacToe.placeX(new Tile(1));
+        ticTacToe.placeX(new Tile(4));
+        ticTacToe.placeX(new Tile(7));
+        assertTrue(ticTacToe.isWin());
+    }
+
 }
