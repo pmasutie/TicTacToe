@@ -93,6 +93,20 @@ public class TicTacToeShould {
     }
 
     @Test
-    public void 
-
+    public void win_if_XXX_on_top_row_with_full_board() {
+        //XXX
+        //XOX
+        //OXO
+        ticTacToe.placeX(new Tile(1));
+        ticTacToe.placeX(new Tile(2));
+        ticTacToe.placeX(new Tile(3));
+        ticTacToe.placeX(new Tile(4));
+        ticTacToe.placeO(new Tile(5));
+        ticTacToe.placeX(new Tile(6));
+        ticTacToe.placeO(new Tile(7));
+        ticTacToe.placeX(new Tile(8));
+        ticTacToe.placeO(new Tile(9));
+        assertTrue(ticTacToe.isWin());
+    }
+    
 }

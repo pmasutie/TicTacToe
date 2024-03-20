@@ -18,6 +18,7 @@ public class TicTacToe {
     }
 
     public boolean isWin() {
-        return board.equals("XXX456789") || board.equals("123XXX789") || board.equals("123456XXX");
+        String topRow = board.substring(0, 3);
+        return topRow.equals("XXX") || board.equals("123XXX789") || board.equals("123456XXX");
     }
 }
