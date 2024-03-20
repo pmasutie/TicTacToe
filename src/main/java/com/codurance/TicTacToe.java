@@ -19,6 +19,7 @@ public class TicTacToe {
 
     public boolean isWin() {
         String topRow = board.substring(0, 3);
-        return topRow.equals("XXX") || board.equals("123XXX789") || board.equals("123456XXX");
+        String middleRow = board.substring(3, 6);
+        return topRow.equals("XXX") || middleRow.equals("XXX") || board.equals("123456XXX");
     }
 }

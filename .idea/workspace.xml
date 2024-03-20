@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="864282af-c6bc-4b5f-9f5d-8a659148a7b4" name="Changes" comment="v1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list id="6bf51283-3dcd-4664-85b7-bd4c5ce4c15c" name="Changes by paulamasutier" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/TicTacToe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TicTacToeShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TicTacToeShould.java" afterDir="false" />
     </list>
+    <list id="6bf51283-3dcd-4664-85b7-bd4c5ce4c15c" name="Changes by paulamasutier" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,9 +41,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.TicTacToeShould.executor": "Run",
+    "Gradle.TicTacToeShould.executor": "Debug",
     "Gradle.TicTacToeShould.not_win_with_x_on_tile_3_4_5.executor": "Run",
     "Gradle.TicTacToeShould.should_start_with_an_empty_board.executor": "Run",
+    "Gradle.TicTacToeShould.win_if_XXX_on_middle_row_with_full_board.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -71,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TicTacToeShould">
+  <component name="RunManager" selected="Gradle.TicTacToeShould.win_if_XXX_on_middle_row_with_full_board">
     <configuration name="TicTacToeShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -144,8 +144,33 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="TicTacToeShould.win_if_XXX_on_middle_row_with_full_board" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TicTacToeShould.win_if_XXX_on_middle_row_with_full_board&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TicTacToeShould.win_if_XXX_on_middle_row_with_full_board" />
         <item itemvalue="Gradle.TicTacToeShould" />
         <item itemvalue="Gradle.TicTacToeShould.not_win_with_x_on_tile_3_4_5" />
         <item itemvalue="Gradle.TicTacToeShould.should_start_with_an_empty_board" />
@@ -167,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710934974975</updated>
-      <workItem from="1710934976027" duration="10813000" />
+      <workItem from="1710934976027" duration="11290000" />
     </task>
     <task id="LOCAL-00001" summary="v1">
       <option name="closed" value="true" />
@@ -205,6 +230,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/codurance/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/codurance/TicTacToe.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
