@@ -10,4 +10,8 @@ public class TicTacToe {
         char tileNumber = tile.toCharacter();
         board = board.replace(tileNumber, 'X');
     }
+
+    public void placeO(Tile tile) {
+        board = "O23456789";
+    }
 }

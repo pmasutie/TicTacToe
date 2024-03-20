@@ -38,7 +38,9 @@ public class TicTacToeShould {
 
     @Test
     public void place_o_on_tile_1() {
-        
+        TicTacToe ticTacToe = new TicTacToe();
+        ticTacToe.placeO(new Tile(1));
+        assertEquals("O23456789", ticTacToe.showBoard());
     }
 
 }
