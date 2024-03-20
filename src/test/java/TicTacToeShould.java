@@ -53,7 +53,6 @@ public class TicTacToeShould {
         assertEquals("1O3456789", ticTacToe.showBoard());
     }
 
-    @Disabled
     @Test
     public void place_o_on_tile_1_and_2(){
         ticTacToe.placeO(new Tile(1));
