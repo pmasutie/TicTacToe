@@ -161,5 +161,4 @@ public class TicTacToeShould {
         assertTrue(ticTacToe.isWin());
     }
 
-
 }
