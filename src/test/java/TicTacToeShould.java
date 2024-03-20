@@ -153,5 +153,13 @@ public class TicTacToeShould {
         assertTrue(ticTacToe.isWin());
     }
 
+    @Test
+    public void win_if_OOO_on_bottom_row() {
+        ticTacToe.placeO(new Tile(7));
+        ticTacToe.placeO(new Tile(8));
+        ticTacToe.placeO(new Tile(9));
+        assertTrue(ticTacToe.isWin());
+    }
+
 
 }
