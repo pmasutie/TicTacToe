@@ -8,12 +8,6 @@ public class TicTacToe {
 
     public void placeX(Tile tile) {
         char tileNumber = tile.toCharacter();
-
-        if (tileNumber == '2') {
-            board = "1X3456789";
-            return;
-        }
-
-        board = "X23456789";
+        board = board.replace(tileNumber, 'X');
     }
 }

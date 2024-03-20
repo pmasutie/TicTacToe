@@ -28,5 +28,17 @@ public class TicTacToeShould {
         assertEquals("1X3456789", ticTacToe.showBoard());
     }
 
+    @Test
+    public void place_x_on_tile_1_and_2() {
+        TicTacToe ticTacToe = new TicTacToe();
+        ticTacToe.placeX(new Tile(1));
+        ticTacToe.placeX(new Tile(2));
+        assertEquals("XX3456789", ticTacToe.showBoard());
+    }
+
+    @Test
+    public void place_o_on_tile_1() {
+        
+    }
 
 }
