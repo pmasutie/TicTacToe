@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864282af-c6bc-4b5f-9f5d-8a659148a7b4" name="Changes" comment="v1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/TicTacToe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TicTacToeShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TicTacToeShould.java" afterDir="false" />
     </list>
-    <list id="6bf51283-3dcd-4664-85b7-bd4c5ce4c15c" name="Changes by paulamasutier" comment="" />
+    <list id="6bf51283-3dcd-4664-85b7-bd4c5ce4c15c" name="Changes by paulamasutier" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TicTacToeShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TicTacToeShould.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +33,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/test/java/TicTacToeShould.java">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="2" changelist="864282af-c6bc-4b5f-9f5d-8a659148a7b4" />
+        <range start1="12" end1="12" start2="13" end2="30" changelist="6bf51283-3dcd-4664-85b7-bd4c5ce4c15c" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/com/codurance/TicTacToe.java">
+      <ranges>
+        <range start1="3" end1="4" start2="3" end2="4" changelist="864282af-c6bc-4b5f-9f5d-8a659148a7b4" />
+        <range start1="5" end1="6" start2="5" end2="6" changelist="864282af-c6bc-4b5f-9f5d-8a659148a7b4" />
+        <range start1="7" end1="7" start2="7" end2="18" changelist="6bf51283-3dcd-4664-85b7-bd4c5ce4c15c" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -60,6 +81,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.codurance" />
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -163,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710934974975</updated>
-      <workItem from="1710934976027" duration="7549000" />
+      <workItem from="1710934976027" duration="8487000" />
     </task>
     <task id="LOCAL-00001" summary="v1">
       <option name="closed" value="true" />
