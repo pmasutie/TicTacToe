@@ -41,7 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.TicTacToeShould.executor": "Debug",
+    "Gradle.TicTacToeShould.executor": "Run",
     "Gradle.TicTacToeShould.not_win_with_x_on_tile_3_4_5.executor": "Run",
     "Gradle.TicTacToeShould.should_start_with_an_empty_board.executor": "Run",
     "Gradle.TicTacToeShould.win_if_XXX_on_middle_row_with_full_board.executor": "Debug",
@@ -71,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TicTacToeShould.win_if_XXX_on_middle_row_with_full_board">
+  <component name="RunManager" selected="Gradle.TicTacToeShould">
     <configuration name="TicTacToeShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -170,8 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TicTacToeShould.win_if_XXX_on_middle_row_with_full_board" />
         <item itemvalue="Gradle.TicTacToeShould" />
+        <item itemvalue="Gradle.TicTacToeShould.win_if_XXX_on_middle_row_with_full_board" />
         <item itemvalue="Gradle.TicTacToeShould.not_win_with_x_on_tile_3_4_5" />
         <item itemvalue="Gradle.TicTacToeShould.should_start_with_an_empty_board" />
       </list>
@@ -192,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710934974975</updated>
-      <workItem from="1710934976027" duration="11290000" />
+      <workItem from="1710934976027" duration="11493000" />
     </task>
     <task id="LOCAL-00001" summary="v1">
       <option name="closed" value="true" />
@@ -230,11 +230,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/codurance/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/codurance/TicTacToe.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
